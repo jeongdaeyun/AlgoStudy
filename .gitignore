@@ -1,0 +1,11 @@
+# 깃에 안올릴 파일들 목록임
+
+# 지우지 말것!
+
+
+# C/C++ compile files(Linux/Mac, Windows)
+*.out
+*.exe
+
+# IPython Notebook files(Jupyter Notebooks)
+*.ipynb
