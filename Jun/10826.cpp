@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-string fibo[10001];
+string fibo[20001];
 string string_add(string num1, string num2);
 
 int main(void)
@@ -29,8 +29,8 @@ string string_add(string num1, string num2)
     {
         num2.insert(num2.begin(),'0');
     }
-    
-    for (int i = max(size1,size2) - 1; i >= 0; i--)
+
+    for (int i = size1 - 1; i >= 0; i--)
     {
         char1 = num1[i] - '0';
         char2 = num2[i] - '0';
