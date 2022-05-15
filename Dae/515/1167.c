@@ -51,7 +51,7 @@ int main(void) {
     }  
     int first = dfs(5);
     int seco = dfs(first);
-    printf("%d\n", first);
+    printf("%d\n", max);
     
     return 0;
 }
