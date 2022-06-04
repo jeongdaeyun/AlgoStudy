@@ -10,7 +10,7 @@ int main(void) {
     dp[1]=1;
     if(dp[n] != 0) return n;
     
-    for(int i=2; i<<n; ++i) {
+    for(int i=2; i<=n; ++i) {
         dp[i] = 4;
         for(int j=1;j<=sqrt(i);++j) {
             dp[i - (j*j)] < dp[i] ? (dp[i] = dp[i - (j*j)]) : (dp[i]);
