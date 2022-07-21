@@ -2,7 +2,7 @@ import sys
 import heapq
 INF=int(1e9)
 n,m,x=list(map(int,sys.stdin.readline().split(' ')))
-graph=[[] for _ in range(m)]
+graph=[[] for _ in range(n+1)]
 for i in range(m):
     start,end,time=list(map(int,sys.stdin.readline().split(' ')))
     graph[start].append((end,time))
